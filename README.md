@@ -1,6 +1,6 @@
 # Image Translation with ASAPNets
 
-## Spatially-Adaptive Pixelwise Networks for Fast Image Translation CVPR 2021
+## Spatially-Adaptive Pixelwise Networks for Fast Image Translation, CVPR 2021
 ### [Webpage](https://tamarott.github.io/ASAPNet_web/) | [Paper](https://arxiv.org/pdf/2012.02992.pdf) | [Video](https://www.youtube.com/watch?v=6-OfZ32CoBE&t=11s)
 
 ## Installation
