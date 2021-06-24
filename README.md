@@ -34,7 +34,7 @@ This will extract the facades full resolution images into `datasets/facadesHR`.
 ### cityscapes
 [download the dataset](https://www.cityscapes-dataset.com/) into `datasets/cityscapes` and arrange in folders: train_images, train_labels, val_images, val_labels
 
-## Generating Images Using Pretrained Model
+## Generating Images Using Pretrained Models
 
 Pretraned models can be downloaded from [here](https://drive.google.com/drive/folders/1mNWsh6QwA-5i8KeihrI6opDj-a2AcOq9?usp=sharing). 
 Save the models under the `checkpoints/` folder.
@@ -78,11 +78,11 @@ python test.py --name [name_of_experiment] --dataset_mode [dataset_mode] --datar
 you can load the parameters used from training by specifying `--load_from_opt_file`.
 
 ## Acknowledgments
-This code is heavily based on the [official implementation](https://github.com/NVlabs/SPADE) of [SPADE](https://arxiv.org/pdf/1903.07291.pdf) 
-We thank the authors for sharing their code publicly.
+This code is heavily based on the [official implementation](https://github.com/NVlabs/SPADE) of [SPADE](https://arxiv.org/pdf/1903.07291.pdf). 
+We thank the authors for sharing their code publicly!
 
 ### License 
-Attribution-NonCommercial-ShareAlike 4.0 International (see file)
+Attribution-NonCommercial-ShareAlike 4.0 International (see file).
 
 
 ### Citation
