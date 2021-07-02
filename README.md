@@ -8,7 +8,13 @@ install requirements:
 ```bash
 pip install -r requirements.txt
 ```
-
+This code also requires the Synchronized-BatchNorm-PyTorch rep.
+```
+cd models/networks/
+git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
+cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
+cd ../../
+```
 ## Code Structure
 The code is heavily based on the [official implementation](https://github.com/NVlabs/SPADE) of [SPADE](https://arxiv.org/pdf/1903.07291.pdf), and therefore has the saome structure: 
 - `train.py`, `test.py`: the entry point for training and testing.
